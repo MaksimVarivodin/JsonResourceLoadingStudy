@@ -1,0 +1,18 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ACywegoz_002Easm_002Fl_003AC_0021_003FUsers_003FMaksym_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FHazipev_003FCywegoz_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AFomanal_002Easm_002Fl_003AC_0021_003FUsers_003FMaksym_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FKyzozic_003FFomanal_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AJyduvuf_002Easm_002Fl_003AC_0021_003FUsers_003FMaksym_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FZacowyg_003FJyduvuf_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AKapomaj_002Easm_002Fl_003AC_0021_003FUsers_003FMaksym_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FZacowyg_003FKapomaj_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AKaqurif_002Easm_002Fl_003AC_0021_003FUsers_003FMaksym_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FWehyjab_003FKaqurif_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ALasijud_002Easm_002Fl_003AC_0021_003FUsers_003FMaksym_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FXepicad_003FLasijud_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AVocepoq_002Easm_002Fl_003AC_0021_003FUsers_003FMaksym_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FTodeluz_003FVocepoq_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AWepoqim_002Easm_002Fl_003AC_0021_003FUsers_003FMaksym_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FTatataq_003FWepoqim_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7ce84f90_002D6ae2_002D4e9e_002D860e_002Deb90f45871f3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Junie Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="D:\Projects\c++\JsonResourceLoadingStudy\JsonResourceLoadingTests" Presentation="&amp;lt;JsonResourceLoadingTests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	</wpf:ResourceDictionary>

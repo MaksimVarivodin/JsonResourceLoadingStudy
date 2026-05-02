@@ -1,0 +1,319 @@
+﻿{
+  "type": "font",
+  "name": "Al Seana",
+  "sizeX": 26,
+  "sizeY": 39,
+  "chars": [
+    {
+      "char": "A",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/A.png"
+    },
+    {
+      "char": "B",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/B.png"
+    },
+    {
+      "char": "C",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/C.png"
+    },
+    {
+      "char": "D",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/D.png"
+    },
+    {
+      "char": "E",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/E.png"
+    },
+    {
+      "char": "F",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/F.png"
+    },
+    {
+      "char": "G",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/G.png"
+    },
+    {
+      "char": "H",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/H.png"
+    },
+    {
+      "char": "I",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/I.png"
+    },
+    {
+      "char": "J",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/J.png"
+    },
+    {
+      "char": "K",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/K.png"
+    },
+    {
+      "char": "L",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/L.png"
+    },
+    {
+      "char": "M",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/M.png"
+    },
+    {
+      "char": "N",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/N.png"
+    },
+    {
+      "char": "O",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/O.png"
+    },
+    {
+      "char": "P",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/P.png"
+    },
+    {
+      "char": "Q",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/Q.png"
+    },
+    {
+      "char": "R",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/R.png"
+    },
+    {
+      "char": "S",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/S.png"
+    },
+    {
+      "char": "T",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/T.png"
+    },
+    {
+      "char": "U",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/U.png"
+    },
+    {
+      "char": "V",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/V.png"
+    },
+    {
+      "char": "W",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/W.png"
+    },
+    {
+      "char": "X",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/X.png"
+    },
+    {
+      "char": "Y",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/Y.png"
+    },
+    {
+      "char": "Z",
+      "path": "data/fonts/Al_Seana/AlphabetCapitalCase/Z.png"
+    },
+    {
+      "char": "a",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/a.png"
+    },
+    {
+      "char": "b",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/b.png"
+    },
+    {
+      "char": "c",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/c.png"
+    },
+    {
+      "char": "d",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/d.png"
+    },
+    {
+      "char": "e",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/e.png"
+    },
+    {
+      "char": "f",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/f.png"
+    },
+    {
+      "char": "g",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/g.png"
+    },
+    {
+      "char": "h",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/h.png"
+    },
+    {
+      "char": "i",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/i.png"
+    },
+    {
+      "char": "j",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/j.png"
+    },
+    {
+      "char": "k",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/k.png"
+    },
+    {
+      "char": "l",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/l.png"
+    },
+    {
+      "char": "m",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/m.png"
+    },
+    {
+      "char": "n",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/n.png"
+    },
+    {
+      "char": "o",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/o.png"
+    },
+    {
+      "char": "p",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/p.png"
+    },
+    {
+      "char": "q",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/q.png"
+    },
+    {
+      "char": "r",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/r.png"
+    },
+    {
+      "char": "s",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/s.png"
+    },
+    {
+      "char": "t",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/t.png"
+    },
+    {
+      "char": "u",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/u.png"
+    },
+    {
+      "char": "v",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/v.png"
+    },
+    {
+      "char": "w",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/w.png"
+    },
+    {
+      "char": "x",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/x.png"
+    },
+    {
+      "char": "y",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/y.png"
+    },
+    {
+      "char": "z",
+      "path": "data/fonts/Al_Seana/AlphabetLowerCase/z.png"
+    },
+    {
+      "char": "0",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/0.png"
+    },
+    {
+      "char": "1",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/1.png"
+    },
+    {
+      "char": "2",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/2.png"
+    },
+    {
+      "char": "3",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/3.png"
+    },
+    {
+      "char": "4",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/4.png"
+    },
+    {
+      "char": "5",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/5.png"
+    },
+    {
+      "char": "6",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/6.png"
+    },
+    {
+      "char": "7",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/7.png"
+    },
+    {
+      "char": "8",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/8.png"
+    },
+    {
+      "char": "9",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/9.png"
+    },
+    {
+      "char": ".",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/dot.png"
+    },
+    {
+      "char": ",",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/coma.png"
+    },
+    {
+      "char": "?",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/question.png"
+    },
+    {
+      "char": "!",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/exclamation.png"
+    },
+    {
+      "char": "'",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/singlequote.png"
+    },
+    {
+      "char": "\"",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/doublequote.png"
+    },
+    {
+      "char": ":",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/colon.png"
+    },
+    {
+      "char": ";",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/semicolon.png"
+    },
+    {
+      "char": "/",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/slash.png"
+    },
+    {"char": "(",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/leftbracket.png"
+    },
+    {
+      "char": ")",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/rightbracket.png"
+    },
+    {
+      "char": "$",
+        "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/dollar.png"
+    },
+    {
+      "char": "&",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/and.png"
+    },
+    {
+      "char": "@",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/dog.png"
+    },
+    {
+      "char": "#",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/hash.png"
+    },
+    {
+      "char": "%",
+      "path": "data/fonts/Al_Seana/NumbersSpecialSymbols/percent.png"
+    }
+  ]
+}

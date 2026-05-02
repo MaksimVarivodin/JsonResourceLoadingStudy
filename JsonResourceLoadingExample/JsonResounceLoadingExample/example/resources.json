@@ -1,0 +1,10 @@
+﻿{
+  "type": "RootResourceManager",
+  "managed_resources": [
+    {
+      "type": "font",
+      "theme": "jungle",
+      "path": "data/fonts/font_resource.json"
+    }
+  ]
+}

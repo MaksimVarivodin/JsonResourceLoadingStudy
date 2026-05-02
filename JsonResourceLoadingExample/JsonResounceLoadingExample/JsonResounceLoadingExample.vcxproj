@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{22CB1058-A155-49AA-9D22-AB7B92CF48E8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>JsonResounceLoadingExample</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdclatest</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdclatest</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdclatest</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdclatest</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\JsonResourceLoadingStudy\JsonResourceLoadingStudy.vcxproj">
+      <Project>{80946d51-b12a-4f65-9124-37a1d7207401}</Project>
+      <Name>JsonResourceLoadingStudy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\background\background_resource.json" />
+    <Content Include="data\background\jungle.png" />
+    <Content Include="data\background\menu.png" />
+    <Content Include="data\background\score.png" />
+    <Content Include="data\coin\coin.png" />
+    <Content Include="data\coin\cointurned1.png" />
+    <Content Include="data\coin\cointurned2.png" />
+    <Content Include="data\coin\cointurned3.png" />
+    <Content Include="data\coin\coin_resource.json" />
+    <Content Include="data\crosshair\crosshair.png" />
+    <Content Include="data\crosshair\crosshair_resource.json" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\A.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\B.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\C.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\D.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\E.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\F.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\G.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\H.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\I.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\J.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\K.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\L.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\M.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\N.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\O.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\P.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\Q.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\R.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\S.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\T.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\U.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\V.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\W.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\X.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\Y.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetCapitalCase\Z.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\a.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\b.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\c.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\d.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\e.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\f.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\g.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\h.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\i.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\j.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\k.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\l.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\m.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\n.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\o.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\p.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\q.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\r.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\s.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\t.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\u.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\v.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\w.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\x.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\y.png" />
+    <Content Include="data\fonts\Al_Seana\AlphabetLowerCase\z.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\0.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\1.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\2.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\3.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\4.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\5.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\6.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\7.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\8.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\9.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\and.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\colon.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\coma.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\dog.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\dollar.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\dot.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\doublequote.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\exclamation.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\hash.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\leftbracket.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\percent.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\question.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\rightbracket.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\semicolon.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\singlequote.png" />
+    <Content Include="data\fonts\Al_Seana\NumbersSpecialSymbols\slash.png" />
+    <Content Include="data\fonts\font_resource.json" />
+    <Content Include="data\missile\missile.png" />
+    <Content Include="data\missile\missile1.png" />
+    <Content Include="data\missile\missile10.png" />
+    <Content Include="data\missile\missile2.png" />
+    <Content Include="data\missile\missile3.png" />
+    <Content Include="data\missile\missile4.png" />
+    <Content Include="data\missile\missile5.png" />
+    <Content Include="data\missile\missile6.png" />
+    <Content Include="data\missile\missile7.png" />
+    <Content Include="data\missile\missile8.png" />
+    <Content Include="data\missile\missile9.png" />
+    <Content Include="data\missile\missile_resource.json" />
+    <Content Include="data\monster\dragonfly1.png" />
+    <Content Include="data\monster\dragonfly2.png" />
+    <Content Include="data\monster\dragonfly3.png" />
+    <Content Include="data\monster\dragonfly4.png" />
+    <Content Include="data\monster\dragonfly5.png" />
+    <Content Include="data\monster\elephant1.png" />
+    <Content Include="data\monster\elephant2.png" />
+    <Content Include="data\monster\elephant3.png" />
+    <Content Include="data\monster\elephant4.png" />
+    <Content Include="data\monster\elephant5.png" />
+    <Content Include="data\monster\fly1.png" />
+    <Content Include="data\monster\fly2.png" />
+    <Content Include="data\monster\fly3.png" />
+    <Content Include="data\monster\fly4.png" />
+    <Content Include="data\monster\fly5.png" />
+    <Content Include="data\monster\groundmonster1.png" />
+    <Content Include="data\monster\groundmonster2.png" />
+    <Content Include="data\monster\groundmonster3.png" />
+    <Content Include="data\monster\monster_resource.json" />
+    <Content Include="data\monster\sealion1.png" />
+    <Content Include="data\monster\sealion2.png" />
+    <Content Include="data\platform\platform.png" />
+    <Content Include="data\platform\platform_resource.json" />
+    <Content Include="data\player\jungleleft.png" />
+    <Content Include="data\player\jungleleftjump.png" />
+    <Content Include="data\player\jungleright.png" />
+    <Content Include="data\player\junglerightjump.png" />
+    <Content Include="data\player\jungleshoot.png" />
+    <Content Include="data\player\jungleshootjump.png" />
+    <Content Include="data\player\player_resource.json" />
+    <Content Include="data\resources.json" />
+    <Content Include="data\springboots\springboots1.png" />
+    <Content Include="data\springboots\springboots2.png" />
+    <Content Include="data\springboots\springboots3.png" />
+    <Content Include="data\springboots\springboots4.png" />
+    <Content Include="data\springboots\springboots5.png" />
+    <Content Include="data\springboots\springboots_resource.json" />
+    <Content Include="data\trampoline\trampoline1.png" />
+    <Content Include="data\trampoline\trampoline2.png" />
+    <Content Include="data\trampoline\trampoline3.png" />
+    <Content Include="data\trampoline\trampoline_resource.json" />
+    <Content Include="data\whitehole\junglewhitehole.png" />
+    <Content Include="data\whitehole\whitehole_resource.json" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\A.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\B.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\C.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\D.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\E.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\F.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\G.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\H.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\I.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\J.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\K.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\L.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\M.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\N.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\O.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\P.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\Q.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\R.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\S.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\T.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\U.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\V.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\W.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\X.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\Y.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetCapitalCase\Z.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\a.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\b.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\c.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\d.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\e.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\f.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\g.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\h.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\i.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\j.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\k.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\l.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\m.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\n.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\o.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\p.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\q.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\r.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\s.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\t.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\u.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\v.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\w.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\x.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\y.png" />
+    <Content Include="example\fonts\Al_Seana\AlphabetLowerCase\z.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\0.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\1.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\2.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\3.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\4.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\5.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\6.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\7.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\8.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\9.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\and.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\colon.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\coma.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\dog.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\dollar.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\dot.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\doublequote.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\exclamation.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\hash.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\leftbracket.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\percent.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\question.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\rightbracket.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\semicolon.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\singlequote.png" />
+    <Content Include="example\fonts\Al_Seana\NumbersSpecialSymbols\slash.png" />
+    <Content Include="example\fonts\font_resource.json" />
+    <Content Include="example\resources.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\..\packages\nlohmann.json.3.12.0\build\native\nlohmann.json.targets" Condition="Exists('..\..\packages\nlohmann.json.3.12.0\build\native\nlohmann.json.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\nlohmann.json.3.12.0\build\native\nlohmann.json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\nlohmann.json.3.12.0\build\native\nlohmann.json.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="JsonResourceLoadingExample/JsonResounceLoadingExample/JsonResounceLoadingExample.vcxproj" Id="22cb1058-a155-49aa-9d22-ab7b92cf48e8" />
+  <Project Path="JsonResourceLoadingStudy/JsonResourceLoadingStudy.vcxproj" Id="80946d51-b12a-4f65-9124-37a1d7207401" />
+  <Project Path="JsonResourceLoadingTests/JsonResourceLoadingTests.vcxproj" Id="2fd63935-1f4d-4cd3-8a0c-7e8f2bbb5518" />
+</Solution>
