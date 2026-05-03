@@ -18,39 +18,48 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FibonacciSizes\IntegerFibonacciSize.cpp">
-      <Filter>Header Files</Filter>
+    <ClCompile Include="RResourceManager\RResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RResourceManager\RResourceManager.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="FibonacciSizes\IntegerFibonacciSize.inl">
+    <None Include="RResourceManager\JsonLoadable.inl">
       <Filter>Header Files</Filter>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FibonacciSizes\IntegerFibonacciSize.hpp">
+    <ClInclude Include="JournalistApi.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="List.hpp">
+    <ClInclude Include="JournalistLib.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Node.hpp">
+    <ClInclude Include="RResourceManager\ISerializable.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PtrNode.hpp">
+    <ClInclude Include="RResourceManager\JsonLoadable.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RefNode.hpp">
+    <ClInclude Include="RResourceManager\ParserFactory.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Shelf.hpp">
+    <ClInclude Include="RResourceManager\PolymorphicResource.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Tree.hpp">
+    <ClInclude Include="RResourceManager\Resource.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TreeNode.hpp">
+    <ClInclude Include="RResourceManager\RResource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RResourceManager\RResourceManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RResourceManager\RType.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
